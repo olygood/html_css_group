@@ -1,0 +1,432 @@
+/* Section HEADER : Andy krause */
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url(assets/fonts/Comfortaa-Regular.ttf);
+}
+
+body {
+
+    font-family: 'Comfortaa-Regular';
+    margin: 0;
+    padding: 0;
+}
+
+#navigation {
+    list-style: none;
+    width: 400px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 480px;
+    z-index: 3;
+    margin-left: 80px;
+}
+
+#navigation a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_eventer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin-left: 20px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)),
+        url(./assets/images/header_Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 485px;
+    background-size: cover;
+}
+
+.img_background {
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.logo_centre {
+    position: absolute;
+    top: 160px;
+    z-index: 4;
+}
+
+.container {
+    max-width: 960px;
+    height: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+/* code béné*/
+body {
+    font-family: Arial, serif;
+    font-size: 1em;
+}
+
+
+h2 {
+    font-family: 'Comfortaa-Regular', Arial, serif;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+/* SECTION WHO WE ARE*/
+/*Définit la couleur, la taille, et l'emplacement du paragraphe*/
+#textewhoweare {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ACACAC;
+    font-size: 1.1em;
+    padding-top: 250px;
+}
+
+/* Definit la largeur des sections, les centre, et les espace, et les définit comme relative*/
+#whoweare,
+#ourteam {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+/*Image*/
+#whoweare #containimg {
+    float: left;
+    margin-right: 50px;
+}
+
+/*Petit encart rouge flottant*/
+.bestpeople {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: block;
+    background-color: #B40000;
+    font-size: 1.1em;
+    color: white;
+    padding: 3px;
+    border: 3px solid white;
+    width: 165px;
+    height: 45px;
+    left: -50px;
+    top: 15px;
+}
+
+/*Titre*/
+#whoweare h2 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 445px;
+}
+
+
+/*Soulignement du texte*/
+#underline {
+    position: absolute;
+    height: 5px;
+    width: 250px;
+    background-color: #af0102;
+    left: 445px;
+    top: 120px;
+}
+
+/* SECTION OUR TEAM */
+#ourteam {
+    position: relative;
+}
+
+#ourteam h2 {
+    text-align: center;
+}
+
+/*Soulignement du texte*/
+#underlineourteam {
+    position: absolute;
+    height: 3px;
+    width: 220px;
+    background-color: #af0102;
+    top: 50px;
+    left: 370px;
+}
+
+/* Equipe contient les div des diff membres du staff*/
+#equipe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*définit la largeur des div d'équipe à 385, si exède, passe a la ligne*/
+#equipe>* {
+    flex: 1 1 385px;
+}
+
+/*Style des noms des membres de la team*/
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #af0102;
+    color: white;
+    width: 55px;
+    height: 20px;
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin-left: 120px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+/* Fait flotter les portraits de la team*/
+#equipe img {
+    float: left;
+}
+
+/*Définit la couleur du texte et sa taille*/
+#equipe p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ACACAC;
+    font-size: 1em;
+}
+
+/*Espace entre les membres de l'équipe*/
+#ceo,
+#coo,
+#cfo,
+#cto {
+    margin-right: 15px;
+}
+
+body {
+    font-family: 'Comfortaa-Regular', Arial, serif;
+
+}
+
+/*-----------------------oli-----------------*/
+
+#our-events {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+    margin-top: 150px;
+}
+
+.organisation p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#titre-principal {
+    font-size: 3em;
+    /* text-decoration: brown underline;*/
+}
+
+section {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+
+}
+
+.organisation {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0.5px 10px 20px 1px rgb(90, 90, 90);
+    margin-top: 50px;
+}
+
+.titre {
+    font-size: 1.5em;
+    background-color: brown;
+    color: white;
+    margin: 0px;
+    padding: 3px;
+}
+
+.date-up {
+    color: rgb(23, 190, 200);
+}
+
+.date-down {
+    font-weight: bold;
+}
+
+.titre2 {}
+
+.texte-ipsum-ipsum {
+    color: gray;
+    padding: 0 10px 0 10px;
+}
+
+#hello {}
+
+#under-line {
+    background-color: brown;
+    height: 4px;
+    width: 235px;
+    position: absolute;
+    top: 100px;
+
+}
+
+/* GENERAL */
+
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/* NEED AN EVENT */
+#needanevents {
+    font-family: 'Comfortaa-Regular', sans-serif;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 75%;
+
+}
+
+.heading-event {
+    padding-left: 150px;
+    padding-bottom: 45px;
+}
+
+.heading-event h2 {
+    margin-left: -455px;
+}
+
+.formulaire {
+    font-family: 'Comfortaa-Regular', sans-serif;
+    text-align: left;
+}
+.formulaire label{
+    width: 179px;
+    padding: 0;
+}
+
+.formulaire input {
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.formulaire textarea {
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+    resize: none;
+    width: 400px;
+    margin-top: 5px;
+
+}
+
+.form-container {
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-container input {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.form-item {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+
+
+.submit-button{
+    margin-left: 165px;
+}
+
+.submit {
+    
+    width: 100px;
+    height: 45px;
+    background-color: white;
+    color: brown;
+    font-family: 'Comfortaa-Regular', sans-serif;
+    font-weight: bold;
+    padding: 0 26px 0 26px;
+    text-transform: uppercase;
+
+}
+
+.submit:hover {
+    background-color: brown;
+    color: white;
+}
+
+.red-divider {
+    width: 305px;
+    height: 4px;
+    background: brown;
+    margin-top: -30px;
+}
+
+.nom-prenom{
+    width: 480px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer-container {
+    background-image: url(assets/images/swirl_pattern.png);
+    background-repeat: repeat-x;
+    height: 250px;
+}
+
+.footer-container h2 {
+    font-family: 'Comfortaa-Regular', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.img-footer img {
+    margin-right: 42px;
+    margin-left: 40px;
+    width: 50px;
+}
